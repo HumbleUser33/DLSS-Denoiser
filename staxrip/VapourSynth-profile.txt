@@ -1,0 +1,11 @@
+[Noise]
+DLSS Denoiser | DLSS Denoiser =
+    import sys
+    sys.path.append(r"E:\StaxRip-v2.52.6-x64\Settings\Plugins\VapourSynth")
+    import dlssdenoise
+    clip = dlssdenoise.DLSSDenoise(clip, preset="$select:msg:DLSS preset;J;K$", strength=$enter_text:Strength, 0.0 to 1.0 (1.0 = all of DLSS)$)
+DLSS Denoiser | DLSS Denoiser, limited =
+    import sys
+    sys.path.append(r"E:\StaxRip-v2.52.6-x64\Settings\Plugins\VapourSynth")
+    import dlssdenoise
+    clip = dlssdenoise.DLSSDenoise(clip, preset="J", limit=$enter_text:Largest change kept whole, 10-bit code values$)

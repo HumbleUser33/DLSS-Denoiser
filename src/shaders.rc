@@ -1,0 +1,20 @@
+// The compiled shaders, embedded in the plugin and the bench. build.cmd compiles them
+// into _build\ and runs rc from the project's root.
+
+#include "ShaderIds.h"
+
+IDS_CS_MOTION_FRAME   RCDATA "_build\\cs_motion_frame.cso"
+IDS_CS_MOTION_BLOCK   RCDATA "_build\\cs_motion_block.cso"
+IDS_CS_MOTION_EXPAND  RCDATA "_build\\cs_motion_expand.cso"
+IDS_CS_GLOBAL_MOTION  RCDATA "_build\\cs_global_motion.cso"
+IDS_CS_GLOBAL_STEP    RCDATA "_build\\cs_global_step.cso"
+IDS_CS_GLOBAL_SOLVE   RCDATA "_build\\cs_global_solve.cso"
+IDS_CS_SCENE_SUMS     RCDATA "_build\\cs_scene_sums.cso"
+IDS_CS_SCENE_CUT      RCDATA "_build\\cs_scene_cut.cso"
+IDS_CS_CONVERT_IN     RCDATA "_build\\cs_convert_in.cso"
+IDS_CS_CONVERT_OUT    RCDATA "_build\\cs_convert_out.cso"
+IDS_CS_TILES          RCDATA "_build\\cs_tiles.cso"
+IDS_CS_BLUR_H         RCDATA "_build\\cs_blur_h.cso"
+IDS_CS_BLUR_V         RCDATA "_build\\cs_blur_v.cso"
+IDS_CS_TILE_MEDIAN    RCDATA "_build\\cs_tile_median.cso"
+IDS_CS_BLUR_GRAD      RCDATA "_build\\cs_blur_grad.cso"

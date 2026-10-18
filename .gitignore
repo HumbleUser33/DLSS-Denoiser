@@ -1,0 +1,17 @@
+# NVIDIA's binaries: never committed, never redistributed. The user supplies them.
+*.dll
+dlss/
+
+# Build products
+_build/
+*.obj
+*.exe
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.cso
+*.res
+
+# What the bench writes
+out/

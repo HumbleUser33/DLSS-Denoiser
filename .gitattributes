@@ -1,0 +1,4 @@
+# cmd.exe looks for labels 512 bytes at a time and misses one a read cuts in two when
+# the file has Unix line endings: batch files are written with Windows ones.
+*.cmd text eol=crlf
+*.bat text eol=crlf
