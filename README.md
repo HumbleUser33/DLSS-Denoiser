@@ -1,5 +1,9 @@
 # DLSS Denoiser
 
+> [!WARNING]
+> **Abandoned project.** The process is far too slow, and its quality falls short of a classic
+> denoising filter.
+
 A VapourSynth filter that takes the grain out of a film before it is encoded, using NVIDIA
 DLSS Super Resolution in **DLAA mode** (the output is the size of the input). It is made for
 4K HDR (PQ) sources and slow offline encodes, in StaxRip or with vspipe: every default is
